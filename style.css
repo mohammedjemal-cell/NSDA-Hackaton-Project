@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* --------------------
    1. GLOBAL & RESET
    -------------------- */
@@ -1348,6 +1348,7 @@ footer {
     .filters-bar {
         justify-content: flex-start;
     }
+
 =======
 /* --------------------
    1. GLOBAL & RESET
@@ -2915,5 +2916,5 @@ align-items: center;
 
 #thumbnail-container .thumbnail:hover {
     border-color: var(--primary-light);
->>>>>>> master
+
 }

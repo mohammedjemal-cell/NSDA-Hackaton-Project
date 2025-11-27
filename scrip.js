@@ -72,8 +72,16 @@ const PRAYER_TIMES = [
 
 // --- APP STATE (for Azkar counting) ---
 // Initialize state for tracking Azkar progress. Keys are zikr text, values are current count.
+// --- APP STATE ---
 const azkarState = {};
-
+const pdfState = {
+    pdfDoc: null,
+    pageNum: 1,
+    pageRendering: false,
+    pageNumPending: null,
+    scale: 1.2,
+    pdfUrl: ''
+};
 // --- INITIALIZATION ---
 const translations = {
     en: {
